@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+	<header>
+		<img class="logo"src="logo3.png" alt="Logo"/>
+		<nav>
+			<ul	class="nav-area">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="">Video</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<form id="nav-form">
+			<input type="text" name="search" />
+			<a class="cari" href="#"><button type="submit">Search</button></a>
+		</form>
+	</header>
+	<main>
+		<section>
+			<h2>Send Us Your Thoughts</h2>
+				<form class="grid">
+					<label for="name" class="field">
+						<span class="label-text">Full Name</span>
+						<input type="text" id="name">
+					</label>
+					<label for="email" class="field">
+						<span class="label-text">Email</span>
+						<input type="email" id="email">
+					</label>
+					<label for="website" class="field">
+						<span class="label-text">Website</span>
+						<input type="text" id="website">
+					</label>
+					<label for="message" class="field">
+						<span class="label-text">Message</span>
+						<textarea name="" id="message"></textarea>
+					</label>
+					<label for="message" class="field">
+						<span class="label-text"></span>
+						<span class="label-text"><button type="submit" value="submit">Submit</button>
+						<button type="submit" value="reset">Reset</button>
+						</span>
+						<!--<button type="reset" value="reset">Reset</button> -->
+					</label>
+				</form>
+		</section>
+	</main>
+	<footer>
+		<p>Web Design, Sartila Idrus 12181651</p>
+	</footer>
+</body>
+</html>

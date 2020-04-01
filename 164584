@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Detail Artikel</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<img class="logo"src="logo3.png" alt="Logo"/>
+		<nav>
+			<ul	class="nav-area">
+				<li><a href="ex-one.html">Home</a></li>
+				<li><a href="">Articles</a></li>
+				<li><a href="">Video</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</nav>
+		<form>
+			<input type="text" name="search" />
+			<a class="cari" href="#"><button type="submit">Search</button></a>
+		</form>
+	</header>
+	<main>
+		<section class="grid-artikel">
+				<article class="subgrid-artikel">
+						<span>
+						<img src="gambar-artikel-1.jpg" alt="gambar-1.jpg" />
+						</span>
+						<span>
+						<h1 id="headln">Headline Topic</h1>
+						<b>Feb 12, 2007</b><b>views: 3,487,497</b>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Curabitur sagittis sapien turpis, ac interdum ante rutrum ut. Sed ac mi erat. Integer ut condimentum quam, in ornare est. 
+							Sed vel mollis est. Cras condimentum felis ut sem rutrum convallis et posuere tortor. Morbi fermentum sapien nec justo 
+							hendrerit, gravida tempor leo efficitur. Aliquam iaculis nisl eu velit dapibus luctus. Ut sed pretium eros. Donec leo neque,
+							luctus in ullamcorper vel, ultricies sed neque. Sed consectetur mauris nisl, quis dictum tellus cursus eget.
+							Aenean interdum tristique massa, ac tristique quam dictum vel.
+							Nunc vel velit fringilla, aliquam mauris a, feugiat diam.
+							In a metus quis lorem dignissim ullamcorper. 
+							Morbi eu pulvinar magna. Nunc vitae rutrum libero. Nulla facilisis sagittis laoreet.</p>
+							
+						<p>Quisque interdum diam id pulvinar bibendum. Donec velit nisi, maximus eu leo ut, sodales rutrum magna. 
+							Mauris sagittis ligula eget leo dictum, sit amet luctus mauris interdum. Quisque nulla mi, dictum non lectus elementum, 
+							ornare consectetur neque. Sed porttitor sapien a varius auctor. Pellentesque tempor fermentum nunc ut pulvinar. 
+							In ac metus sagittis, vulputate ligula vitae, posuere justo. Nam quis velit leo. Curabitur iaculis vulputate gravida. 
+							Nam eget arcu eu velit fringilla elementum. Sed eu tincidunt libero, sed egestas leo. Mauris ultrices lorem quis lacus 
+							eleifend, et porta enim finibus. Aenean vehicula nisl mauris. Vestibulum nec euismod neque, vitae tempus neque.
+							Mauris rutrum dignissim libero, in malesuada libero lacinia non. </p>	
+						</span>
+				</article>	
+		</section>
+		<aside>
+			<h4>Who Are We?</h4>
+			<p>Lorem ipsum dolor sit ame</p>
+			<h4>Artikel Berdasarkan Kategori</h4>
+			<nav>
+				<ul>
+					<li><a href="">HTML dan CSS</a></li>
+					<li><a href="">Javascript</a></li>
+					<li><a href="">Photoshop</a></li>
+					<li><a href="">Inspirasi</a></li>
+					<li><a href="">Berita</a></li>
+					<li><a href="">Off Topic</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</main>
+	<footer>
+		<p>Web Design, STMIK EL-Rahma Yogyakarta <b>2020</b></p>
+	</footer>
+	</div><!--penutup div "wrapper"-->
+</body>
+</html>

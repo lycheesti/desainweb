@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Artikel</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<img class="logo"src="logo3.png" alt="Logo"/>
+		<nav>
+			<ul	class="nav-area">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="">Articles</a></li>
+				<li><a href="">Video</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<form>
+			<input type="text" name="search" />
+			<a class="cari" href="#"><button type="submit">Search</button></a>
+		</form>
+	</header>
+	<main>
+		<section class="grid-artikel">
+				<article class="subgrid-artikel">
+						<span>
+						<img src="gambar-artikel-1.jpg" alt="gambar-1.jpg" />
+						</span>
+						<span>
+						<h1 id="headln">Headline Topic</h1>
+						<b>Feb 12, 2007</b><b>views: 3,487,497</b>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Curabitur sagittis sapien turpis, ac interdum ante rutrum ut. Sed ac mi erat. Integer ut condimentum quam, in ornare est. 
+							Sed vel mollis est. Cras condimentum felis ut sem rutrum convallis et posuere tortor. Morbi fermentum sapien nec justo 
+							hendrerit, gravida tempor leo efficitur.</p>
+						<a href="detail-artikel.html">Read more</a>	
+						</span>
+				</article>	
+				<article class="subgrid-artikel">
+						<span>
+						<img src="gambar-artikel-1.jpg" alt="gambar-1.jpg" />
+						</span>
+						<span>
+						<h1 id="headln">Headline Topic</h1>
+						<b>Feb 12, 2007</b><b>views: 3,487,497</b>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Curabitur sagittis sapien turpis, ac interdum ante rutrum ut. Sed ac mi erat. Integer ut condimentum quam, in ornare est. 
+							Sed vel mollis est. Cras condimentum felis ut sem rutrum convallis et posuere tortor. Morbi fermentum sapien nec justo 
+							hendrerit, gravida tempor leo efficitur.</p>
+						<a href="detail-artikel.html">Read more</a>	
+						</span>
+				</article>
+				<article class="subgrid-artikel">
+						<span>
+						<img src="gambar-artikel-1.jpg" alt="gambar-1.jpg" />
+						</span>
+						<span>
+						<h1 id="headln">Headline Topic</h1>
+						<b>Feb 12, 2007</b><b>views: 3,487,497</b>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Curabitur sagittis sapien turpis, ac interdum ante rutrum ut. Sed ac mi erat. Integer ut condimentum quam, in ornare est. 
+							Sed vel mollis est. Cras condimentum felis ut sem rutrum convallis et posuere tortor. Morbi fermentum sapien nec justo 
+							hendrerit, gravida tempor leo efficitur.</p>
+						<a href="detail-artikel.html">Read more</a>	
+						</span>
+				</article>				
+		</section>
+		<aside>
+			<h4>Who Are We?</h4>
+			<p>Lorem ipsum dolor sit ame</p>
+			<h4>Artikel Berdasarkan Kategori</h4>
+			<nav>
+				<ul>
+					<li><a href="">HTML dan CSS</a></li>
+					<li><a href="">Javascript</a></li>
+					<li><a href="">Photoshop</a></li>
+					<li><a href="">Inspirasi</a></li>
+					<li><a href="">Berita</a></li>
+					<li><a href="">Off Topic</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</main>
+	<footer>
+		<p>Web Design, Sartila Idrus 12181651</p>
+	</footer>
+	</div><!--penutup div "wrapper"-->
+</body>
+</html>
